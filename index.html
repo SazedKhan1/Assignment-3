@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/73154629a2.js" crossorigin="anonymous"></script>
     <!-- Bootstrap cdn link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <title>Assignment</title>
@@ -177,81 +179,157 @@
         <!-- see more courses btn -->
         <div class="text-center p-5"> <button class="btn btn-primary">See More Courses</button></div>
 
+        <!-- Register Section started -->
 
+        <section class="m-5">
+            <div
+                class="bg-primary p-5 d-flex flex-column flex-sm-row flex-lg-row flex-xl-row flex-xxl-row align-items-center">
+                <div class="px-3">
+                    <h2 class="text-light">How to join</h2>
+                    <p class="text-light">It is a long established fact that a reader will be distracted by the readable
+                        content of a page
+                        when looking at its layout.</p>
+                </div>
+                <div class="mx-3">
+                    <button type="button" class="btn btn-light text-primary" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Register Now
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Hello Sir!!!</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p> To become successful you have to practice more and more..</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-
+        <!-- Register Section End -->
 
         <!-- Frequently Asked Questions Started -->
-        <div class="accordion accordion-flush mb-5" id="accordionFlushExample">
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingOne">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                        what is difference between flexbox and grid?
-                    </button>
-                </h2>
-                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-                    data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Grid is made for two-dimensional layout while Flexbox is for one. This
-                        means Flexbox can work on either row or columns at a time, but Grids can work on both. Flexbox,
-                        gives you more flexibility while working on either element (row or column). HTML markup and CSS
-                        will be easy to manage in this type of scenario.</div>
+
+        <section class="mb-5">
+            <div class="mb-5 text-center">
+                <h1>Frequently Asked Questions</h1>
+                <p>It is a long established fact that a reader will be distracted by <br> the readable content of a page
+                    when
+                    looking at its layout.</p>
+            </div>
+            <div class="accordion accordion-flush mb-5 w-100" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            what is difference between flexbox and grid?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Grid is made for two-dimensional layout while Flexbox is for one.
+                            This
+                            means Flexbox can work on either row or columns at a time, but Grids can work on both.
+                            Flexbox,
+                            gives you more flexibility while working on either element (row or column). HTML markup and
+                            CSS
+                            will be easy to manage in this type of scenario.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            what is difference between bootstrap and tailwind?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Bootstrap comes with a set of pre-styled responsive, mobile-first
+                            components that possess a definite UI kit. Tailwind CSS uses a set of utility classes to
+                            create
+                            a neat UI with more flexibility and uniqueness. Sites created using Bootstrap follow the
+                            generic
+                            pattern that makes them look identical.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            what is css box model?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">In CSS, the term "box model" is used when talking about design and
+                            layout. The CSS box model is essentially a box that wraps around every HTML element.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            what is semantic tag?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">The HTML semantics refers to the tags that provide meaning to an
+                            HTML
+                            page rather than just presentation. It makes HTML more comprehensible by better defining the
+                            different sections and layout of web pages</div>
+                    </div>
                 </div>
             </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                        what is difference between bootstrap and tailwind?
-                    </button>
-                </h2>
-                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-                    data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Bootstrap comes with a set of pre-styled responsive, mobile-first
-                        components that possess a definite UI kit. Tailwind CSS uses a set of utility classes to create
-                        a neat UI with more flexibility and uniqueness. Sites created using Bootstrap follow the generic
-                        pattern that makes them look identical.</div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                        what is css box model?
-                    </button>
-                </h2>
-                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-                    data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">In CSS, the term "box model" is used when talking about design and
-                        layout. The CSS box model is essentially a box that wraps around every HTML element.</div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                        what is semantic tag?
-                    </button>
-                </h2>
-                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-                    data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">The HTML semantics refers to the tags that provide meaning to an HTML
-                        page rather than just presentation. It makes HTML more comprehensible by better defining the
-                        different sections and layout of web pages</div>
-                </div>
-            </div>
-        </div>
+        </section>
         <!-- Frequently Asked Questions End  -->
 
-        <!-- Sponsorship Section -->
-        <div class="text-center fw-bold">
-            <h2>Trusted by over 800+ companies</h2>
-        </div>
-
-
+        <!-- Sponsorship Section Started -->
+        <section class="d-none d-md-none d-lg-block mb-5 ">
+            <div class="text-center mb-5 ">
+                <h2>Trusted by over 800+ companies</h2>
+            </div>
+            <div class="d-flex justify-content-between">
+                <img src="images/company/company-1.png" alt="">
+                <img src="images/company/company-2.png" alt="">
+                <img src="images/company/company-3.png" alt="">
+                <img src="images/company/company-4.png" alt="">
+                <img src="images/company/company-5.png" alt="">
+                <img src="images/company/company-6.png" alt="">
+            </div>
+        </section>
+        <!-- Sponsorship Section End  -->
     </main>
     <!-- script -->
     <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+<footer class="text-center p-5 bg-dark">
+    <h1 class="text-light">Pro EDU</h1>
+    <p class="text-light"> Office 41, Zawaya Buildin, Ghala Muscat <br>
+        Sultanate of Oman</p>
+    <h6 class="text-light"> ©2022 all right reserved by Sazed | Khan</h6>
+    <div>
+        <a href="https://www.facebook.com/ak.sazed" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.facebook.com/ak.sazed" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/ak.sazed" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/ak.sazed" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="https://github.com/SazedKhan1"><i class="fa-brands fa-github"></i></a>
+    </div>
+</footer>
 
 </html>
